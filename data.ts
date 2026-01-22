@@ -3,11 +3,11 @@ import { Officer } from './types';
 
 export const OFFICER_DATA: Officer[] = [
   // --- COMANDO GERAL (GCG) ---
-  { id: 'cg-1', category: 'Comando', unit: 'GCG', rank: 'CEL', matricula: '---', name: 'PAULO AMORIM FEITOSA FILHO', role: 'Comandante Geral', contact: '98109-8500' },
+  { id: 'cg-1', category: 'Comando', unit: 'GCG', rank: 'CEL', matricula: 'FEITOSA', name: 'PAULO AMORIM FEITOSA FILHO', role: 'Comandante Geral', contact: '98109-8500' },
   { id: 'cg-2', category: 'Comando', unit: 'GCG', rank: 'TC', matricula: '117846', name: 'THAYRONILSON EMERY DOS SANTOS', role: 'Chefe de Gabinete / Assessor CG', contact: '98825-9120' },
   { id: 'cg-3', category: 'Comando', unit: 'GCG', rank: 'TC', matricula: '114111', name: 'SANDRO RICARDO DOS SANTOS', role: 'Chefe do Núcleo de Qualidade de Vida', contact: '98829-5540' },
   { id: 'cg-4', category: 'Comando', unit: 'GCG', rank: 'CAP', matricula: '337293', name: 'ANDRE LUIS SOUZA DE FIGUEIROA', role: 'Subchefe de Gabinete do CG', contact: '98855-3175' },
-  { id: 'cg-5', category: 'Comando', unit: 'GCG', rank: 'MAJ', matricula: '117528', name: 'ADEILSON LINS DE CARVALHO', role: 'Chefe da SPO', contact: '98823-8269' },
+  { id: 'cg-5', category: 'Comando', unit: 'GCG', rank: 'MAJ', matricula: '117528', name: 'ADEILSON LINS DE CARVALHO', role: 'Chefe da SPO', contact: '8823-8269' },
   { id: 'cg-6', category: 'Comando', unit: 'GCG', rank: 'MAJ', matricula: '121126', name: 'ARLAN SIQUEIRA DE BARROS', role: 'Chefe da SPP', contact: '99645-3134' },
 
   // --- SUBCOMANDO GERAL (GSCG) ---
@@ -17,17 +17,17 @@ export const OFFICER_DATA: Officer[] = [
   { id: 'scg-4', category: 'Subcomando', unit: 'GSCG', rank: 'MAJ', matricula: '116858', name: 'JOSE PETRONIO PANTALEAO DOS SANTOS', role: 'Chefe da Ajudância Geral', contact: '99146-7710' },
   { id: 'scg-5', category: 'Subcomando', unit: 'GSCG', rank: 'CAP', matricula: '1554', name: 'IGOR SARMENTO FIRMINO', role: 'Subchefe Assessoria do Subcomandante Geral', contact: '99953-3113' },
   { id: 'scg-6', category: 'Subcomando', unit: 'GSCG', rank: 'CAP', matricula: '423983', name: 'MARIANA CESAR GOIS CAETANO TOLEDO', role: 'Subchefe Ajudância Geral / Chefe Secretaria', contact: '99610-6162' },
-  { id: 'scg-7', category: 'Subcomando', unit: 'GSCG', rank: 'MAJ', matricula: '1207547', name: 'JOSE ANDERSON BOMFIM BARROS', role: 'Chefe Atendimento Público (Ouvidoria)', contact: '99922-0496' },
-  { id: 'scg-8', category: 'Subcomando', unit: 'GSCG', rank: 'MAJ', matricula: '120421', name: 'EURICO CORREIA LEAL', role: 'Chefe Serviço Informação ao Cidadão (Ouvidoria)', contact: '98855-0898' },
+  { id: 'scg-7', category: 'Subcomando', unit: 'GSCG', rank: 'MAJ', matricula: '1207547', name: 'JOSE ANDERSON BOMFIM BARROS', role: 'Atendimento ao Público (Ouvidoria)', contact: '99922-0496' },
+  { id: 'scg-8', category: 'Subcomando', unit: 'GSCG', rank: 'MAJ', matricula: '120421', name: 'EURICO CORREIA LEAL', role: 'SIC (Ouvidoria)', contact: '98855-0898' },
 
   // --- ESTADO MAIOR GERAL (EMG) ---
   { id: 'emg-1', category: 'EMG', unit: 'EMG', rank: 'CEL', matricula: '9982', name: 'MACIEL PANTALEAO SILVA', role: 'Chefe do EMG', contact: '98854-1619' },
   { id: 'emg-2', category: 'EMG', unit: 'EMG', rank: 'TC', matricula: '117820', name: 'SERGIO HENRIQUE LIMA DOS SANTOS', role: 'Subchefe do EMG', contact: '98702-0846' },
-  { id: 'emg-3', category: 'EMG', unit: 'EMG', rank: 'TC', matricula: '117595', name: 'CICERO SERCUNDINO DA SILVA', role: 'Chefe da 1ª Seção do EMG', contact: '99120-0867' },
-  { id: 'emg-4', category: 'EMG', unit: 'EMG', rank: 'TC', matricula: '87270', name: 'PAULO EUGENIO DA SILVA FREITAS', role: 'Chefe da 2ª Seção do EMG', contact: '98810-5721' },
-  { id: 'emg-5', category: 'EMG', unit: 'EMG', rank: 'TC', matricula: '117838', name: 'SILVIO JOSE LUCIO E SILVA', role: 'Chefe da 3ª Seção do EMG', contact: '98897-2979' },
-  { id: 'emg-6', category: 'EMG', unit: 'EMG', rank: 'TC', matricula: '121002', name: 'JEFFERSON SANTA RITA CANUTO', role: 'Chefe da 4ª Seção do EMG', contact: '99986-4967' },
-  { id: 'emg-7', category: 'EMG', unit: 'EMG', rank: 'TC', matricula: '113212', name: 'SIDRAITON SOARES SANTOS', role: 'Chefe da 5ª Seção do EMG', contact: '98830-3319' },
+  { id: 'emg-3', category: 'EMG', unit: 'EMG', rank: 'TC', matricula: '117595', name: 'CICERO SERCUNDINO DA SILVA', role: 'Chefe da 1ª Seção (EMG)', contact: '99120-0867' },
+  { id: 'emg-4', category: 'EMG', unit: 'EMG', rank: 'TC', matricula: '87270', name: 'PAULO EUGENIO DA SILVA FREITAS', role: 'Chefe da 2ª Seção (EMG)', contact: '98810-5721' },
+  { id: 'emg-5', category: 'EMG', unit: 'EMG', rank: 'TC', matricula: '117838', name: 'SILVIO JOSE LUCIO E SILVA', role: 'Chefe da 3ª Seção (EMG)', contact: '98897-2979' },
+  { id: 'emg-6', category: 'EMG', unit: 'EMG', rank: 'TC', matricula: '121002', name: 'JEFFERSON SANTA RITA CANUTO', role: 'Chefe da 4ª Seção (EMG)', contact: '99986-4967' },
+  { id: 'emg-7', category: 'EMG', unit: 'EMG', rank: 'TC', matricula: '113212', name: 'SIDRAITON SOARES SANTOS', role: 'Chefe da 5ª Seção (EMG)', contact: '98830-3319' },
 
   // --- CORREGEDORIA ---
   { id: 'cor-1', category: 'Administrativo', unit: 'CORREG', rank: 'TC', matricula: '117773', name: 'JOSÉ DANIEL DE LIMA NETO', role: 'Corregedor Geral', contact: '98848-4560' },
@@ -49,33 +49,121 @@ export const OFFICER_DATA: Officer[] = [
   { id: 'dir-13', category: 'Diretorias', unit: 'DPP', rank: 'CEL', matricula: '113271', name: 'NILTON ROCHA JUNIOR', role: 'Diretor de Políticas Preventivas', contact: '99818-9596' },
   { id: 'dir-14', category: 'Diretorias', unit: 'DPP', rank: 'TC', matricula: '102652', name: 'JORGE FRANCELINO TENORIO', role: 'Subdiretor de Políticas Preventivas', contact: '98833-4156' },
 
-  // --- ENSINO E ESCOLAS ---
-  { id: 'esc-1', category: 'Diretorias', unit: 'APMSAM', rank: 'CEL', matricula: '113522', name: 'CARLOS JOSE AZEVEDO SANTOS', role: 'Comandante da APMSAM', contact: '99983-3046' },
-  { id: 'esc-2', category: 'Diretorias', unit: 'APMSAM', rank: 'TC', matricula: '117579', name: 'HELSON DE AZEVEDO SOUZA NETO', role: 'Subcomandante da APMSAM', contact: '99644-2161' },
-  { id: 'esc-3', category: 'Diretorias', unit: 'CFAP', rank: 'MAJ', matricula: '117722', name: 'DANIEL SAMPAIO VALOES DA ROCHA', role: 'Comandante do CFAP', contact: '99998-9994' },
-  { id: 'esc-4', category: 'Diretorias', unit: 'CFAP', rank: 'MAJ', matricula: '98654187', name: 'REINALDO DE LIMA BARBOSA JÚNIOR', role: 'Subcomandante do CFAP', contact: '99973-7905' },
-  { id: 'esc-5', category: 'Diretorias', unit: 'DEF', rank: 'TC', matricula: '98654160', name: 'PEDRO HENRIQUE BASILIO HONORATO', role: 'Chefe do Departamento de Educação Física', contact: '98840-1041' },
-  { id: 'esc-6', category: 'Diretorias', unit: 'CPM-Cap', rank: 'TC', matricula: '120995', name: 'SIDNEY INACIO CUNHA', role: 'Comandante do Colégio Militar (Capital)', contact: '98860-9550' },
-  { id: 'esc-7', category: 'Diretorias', unit: 'CPM-Cap', rank: 'MAJ', matricula: '121118', name: 'RODRIGO MEDEIROS FERREIRA', role: 'Subcomandante do Colégio Militar (Capital)', contact: '98861-0206' },
-  { id: 'esc-8', category: 'Diretorias', unit: 'CPM-Int', rank: 'TC', matricula: '117668', name: 'LUCIANO FELIZARDO DOS SANTOS', role: 'Comandante do Colégio Militar (Interior)', contact: '99933-2773' },
-  { id: 'esc-9', category: 'Diretorias', unit: 'CPM-Int', rank: 'MAJ', matricula: '120510', name: 'JAMES MARINHO VITAL', role: 'Subcomandante do Colégio Militar (Interior)', contact: '98101-3600' },
-
   // --- POLICIAMENTO METROPOLITANO (CPM) ---
   { id: 'm-1', category: 'Metropolitana', unit: 'CPM', rank: 'TC', matricula: '120812', name: 'HIRAQUE AGNNES DOS SANTOS', role: 'Comandante Policiamento Metropolitano', contact: '98858-9137' },
   { id: 'm-2', category: 'Metropolitana', unit: 'CPM', rank: 'MAJ', matricula: '9865662', name: 'ALUCHAM ARAUJO FONSECA DE SENA', role: 'Subcomandante Policiamento Metropolitano', contact: '98827-0303' },
   { id: 'm-3', category: 'Metropolitana', unit: '1º BPM', rank: 'TC', matricula: '113557', name: 'LUIZ SANTOS DA SILVA', role: 'Comandante 1º BPM – Vergel do Lago', contact: '98878-2458' },
-  { id: 'm-4', category: 'Metropolitana', unit: '4º BPM', rank: 'MAJ', matricula: '121045', name: 'GLAUDSON JATOBA DE OLIVEIRA', role: 'Comandante 4º BPM – Farol', contact: '99924-7832' },
-  { id: 'm-5', category: 'Metropolitana', unit: '5º BPM', rank: 'TC', matricula: '547913', name: 'LUCIANO JOAO DA SILVA', role: 'Comandante 5º BPM – Benedito Bentes', contact: '98891-2642' },
-  { id: 'm-6', category: 'Metropolitana', unit: '8º BPM', rank: 'MAJ', matricula: '1206567', name: 'RODRIGO VITAL VELOSO SOARES BOTELHO', role: 'Comandante 8º BPM – Rio Largo', contact: '99630-5904' },
+  { id: 'm-4', category: 'Metropolitana', unit: '1º BPM', rank: 'CAP', matricula: '98653156', name: 'GRAYSON SAMUEL DA SILVA', role: 'Subcomandante 1º BPM', contact: '99909-2937' },
+  { id: 'm-5', category: 'Metropolitana', unit: '4º BPM', rank: 'MAJ', matricula: '121045', name: 'GLAUDSON JATOBA DE OLIVEIRA', role: 'Comandante 4º BPM – Farol', contact: '99924-7832' },
+  { id: 'm-6', category: 'Metropolitana', unit: '4º BPM', rank: 'CAP', matricula: '1207504', name: 'WENDERSON VIANA GUILHERME', role: 'Subcomandante 4º BPM', contact: '98810-1060' },
+  { id: 'm-7', category: 'Metropolitana', unit: '5º BPM', rank: 'TC', matricula: '547913', name: 'LUCIANO JOAO DA SILVA', role: 'Comandante 5º BPM – Benedito Bentes', contact: '98891-2642' },
+  { id: 'm-8', category: 'Metropolitana', unit: '5º BPM', rank: 'CAP', matricula: '14656', name: 'WELLINGTON DOS ANJOS SILVA JUNIOR', role: 'Subcomandante 5º BPM', contact: '98896-6280' },
+  { id: 'm-9', category: 'Metropolitana', unit: '8º BPM', rank: 'MAJ', matricula: '1206567', name: 'RODRIGO VITAL VELOSO SOARES BOTELHO', role: 'Comandante 8º BPM – Rio Largo', contact: '99630-5904' },
+  { id: 'm-10', category: 'Metropolitana', unit: '8º BPM', rank: 'CAP', matricula: '332151', name: 'JEFFERSON CARUZO FERREIRA', role: 'Subcomandante 8º BPM', contact: '98766-9222' },
+  { id: 'm-11', category: 'Metropolitana', unit: '12º BPM', rank: 'TC', matricula: '1201204', name: 'JASIEL FRANCISCO SILVA DE ANDRADE', role: 'Comandante 12º BPM – Cidade Universitária', contact: '99992-8377' },
+  { id: 'm-12', category: 'Metropolitana', unit: '12º BPM', rank: 'CAP', matricula: '000051', name: 'KELMANY MARCIO DE ASSIS SILVA', role: 'Subcomandante 12º BPM', contact: '98884-4455' },
+  { id: 'm-13', category: 'Metropolitana', unit: '12º BPM', rank: 'CAP', matricula: '1200674', name: 'ANDERSON LUIZ CALHEIROS OLIVEIRA', role: 'Chefe Presídio Militar (12º BPM)', contact: '98892-5813' },
+  { id: 'm-14', category: 'Metropolitana', unit: '13º BPM', rank: 'MAJ', matricula: '1206893', name: 'DANIEL SOUZA DOS SANTOS', role: 'Comandante 13º BPM – Jacintinho', contact: '99928-2939' },
+  { id: 'm-15', category: 'Metropolitana', unit: '13º BPM', rank: 'CAP', matricula: '98653261', name: 'EVERTON ESTEVAN CABRAL DA SILVA', role: 'Subcomandante 13º BPM', contact: '98746-0490' },
+  { id: 'm-16', category: 'Metropolitana', unit: '2ª CPM/I', rank: 'CAP', matricula: '98653059', name: 'JOSE PEDRO DOS ANJOS SILVA', role: 'Comandante 2ª CPM/I – Paripueira', contact: '98876-8896' },
+  { id: 'm-17', category: 'Metropolitana', unit: '2ª CPM/I', rank: '1º TEN', matricula: '10987', name: 'KAROL DIAS ALVES', role: 'Subcomandante 2ª CPM/I', contact: '98843-9234' },
+  { id: 'm-18', category: 'Metropolitana', unit: '4ª CPM/I', rank: 'MAJ', matricula: '1200739', name: 'CLETIANO ANTONIO NAVARRO FERRO', role: 'Comandante 4ª CPM/I – Marechal Deodoro', contact: '99656-8265' },
+  { id: 'm-19', category: 'Metropolitana', unit: '4ª CPM/I', rank: 'CAP', matricula: '1423916', name: 'GILVANO SILVA SANTOS JUNIOR', role: 'Subcomandante 4ª CPM/I', contact: '98861-6675' },
+  { id: 'm-20', category: 'Metropolitana', unit: '5ª CPM/I', rank: 'CAP', matricula: '1203495', name: 'FRANCISCO LUTIANE DE BRITTO', role: 'Comandante 5ª CPM/I – Antares', contact: '98836-6853' },
+  { id: 'm-21', category: 'Metropolitana', unit: '5ª CPM/I', rank: 'CAP', matricula: '18864', name: 'PAULO VICTOR DE LIMA RODRIGUES', role: 'Subcomandante 5ª CPM/I', contact: '99939-1155' },
 
   // --- REGIÃO SERTÃO (CPRS) ---
   { id: 'ser-1', category: 'Sertão', unit: 'CPRS', rank: 'CEL', matricula: '101753', name: 'RAIMUNDO JOSE DE FREITAS LESSA', role: 'Comandante Regional Sertão', contact: '99982-4907' },
   { id: 'ser-2', category: 'Sertão', unit: 'CPRS', rank: 'TC', matricula: '1200712', name: 'ADEMAR SIQUEIRA DA SILVA NETO', role: 'Subcomandante Regional Sertão', contact: '98833-4013' },
   { id: 'ser-3', category: 'Sertão', unit: '7º BPM', rank: 'TC', matricula: '102717', name: 'HEBERT ALEKSANDER CARVALHO DE SANTANA', role: 'Comandante 7º BPM – Santana do Ipanema', contact: '99974-7222' },
+  { id: 'ser-4', category: 'Sertão', unit: '7º BPM', rank: 'CAP', matricula: '1287', name: 'PAULO CEZAR SOARES DA SILVA JUNIOR', role: 'Subcomandante 7º BPM', contact: '98133-3695' },
+  { id: 'ser-5', category: 'Sertão', unit: '9º BPM', rank: 'TC', matricula: '14575', name: 'PEDRO BARBOSA DE OLIVEIRA JUNIOR', role: 'Comandante 9º BPM – Delmiro Gouveia', contact: '99659-6362' },
+  { id: 'ser-6', category: 'Sertão', unit: '9º BPM', rank: 'CAP', matricula: '1207490', name: 'MARCUS VINICIUS SILVA CAVALCANTE', role: 'Subcomandante 9º BPM', contact: '99671-9192' },
+  { id: 'ser-7', category: 'Sertão', unit: '6ª CPM/I', rank: 'MAJ', matricula: '113301', name: 'JORGE RODRIGUES DE MORAIS JUNIOR', role: 'Comandante 6ª CPM/I – Batalha', contact: '99125-0056' },
+  { id: 'ser-8', category: 'Sertão', unit: '6ª CPM/I', rank: 'CAP', matricula: '1643', name: 'EDUARDO HENRIQUE SALUSTIANO SANTOS', role: 'Subcomandante 6ª CPM/I', contact: '99835-0637' },
+
+  // --- REGIÃO AGRESTE (CPRA) ---
+  { id: 'agr-1', category: 'Agreste', unit: 'CPRA', rank: 'TC', matricula: '113743', name: 'ANAXIMANDRO TENORIO DE SA', role: 'Comandante Regional Agreste', contact: '99811-4222' },
+  { id: 'agr-2', category: 'Agreste', unit: 'CPRA', rank: 'TC', matricula: '120766', name: 'DIOGO VITAL DE OLIVEIRA', role: 'Subcomandante Regional Agreste', contact: '99902-0896' },
+  { id: 'agr-3', category: 'Agreste', unit: '3º BPM', rank: 'TC', matricula: '1206869', name: 'CARLOS ALBERTO MUNIZ DE ALBUQUERQUE', role: 'Comandante 3º BPM – Arapiraca', contact: '98833-3866' },
+  { id: 'agr-4', category: 'Agreste', unit: '3º BPM', rank: 'CAP', matricula: '1207474', name: 'EMANOEL PEDRO SANTOS SILVA', role: 'Subcomandante 3º BPM', contact: '99900-7800' },
+  { id: 'agr-5', category: 'Agreste', unit: '10º BPM', rank: 'MAJ', matricula: '1200631', name: 'ANTONIO ANDRE ANDRADE DE OLIVEIRA BARBOS', role: 'Comandante 10º BPM – Palmeira dos Índios', contact: '99969-6894' },
+  { id: 'agr-6', category: 'Agreste', unit: '10º BPM', rank: 'CAP', matricula: '498734', name: 'SAMUEL DE JESUS TELES', role: 'Subcomandante 10º BPM', contact: '99935-9381' },
+  { id: 'agr-7', category: 'Agreste', unit: '3ª CPM/I', rank: 'CAP', matricula: '498882', name: 'RODOLPHO HAMUL DE MELO MARINHO', role: 'Comandante 3ª CPM/I – Atalaia', contact: '99829-2144' },
+  { id: 'agr-8', category: 'Agreste', unit: '3ª CPM/I', rank: '1º TEN', matricula: '1732', name: 'CLAUDIO HENRIQUE SANTOS DO CARMO', role: 'Subcomandante 3ª CPM/I', contact: '99951-7977' },
+  { id: 'agr-9', category: 'Agreste', unit: '7ª CPM/I', rank: 'MAJ', matricula: '1200593', name: 'JACKSON PEDRO DOS SANTOS LINO', role: 'Comandante 7ª CPM/I – Girau do Ponciano', contact: '98117-8949' },
+  { id: 'agr-10', category: 'Agreste', unit: '7ª CPM/I', rank: 'CAP', matricula: '1708', name: 'JOSE SALATIEL COSTA BEZERRA', role: 'Subcomandante 7ª CPM/I', contact: '99950-1916' },
+
+  // --- REGIÃO NORTE / ZONA DA MATA (CPRN-ZM) ---
+  { id: 'nzm-1', category: 'Norte/ZM', unit: 'CPRN-ZM', rank: 'CEL', matricula: '113611', name: 'MARLON BATISTA DE ARAUJO', role: 'Comandante Regional Norte/ZM', contact: '99991-3314' },
+  { id: 'nzm-2', category: 'Norte/ZM', unit: 'CPRN-ZM', rank: 'TC', matricula: '82145', name: 'ALEX MATHIAS ANDRADE', role: 'Subcomandante Regional Norte/ZM', contact: '99633-7373' },
+  { id: 'nzm-3', category: 'Norte/ZM', unit: '2º BPM', rank: 'MAJ', matricula: '1207369', name: 'GLAUBER PATRICK DE SANTANA SANTOS', role: 'Comandante 2º BPM – União dos Palmares', contact: '99662-0121' },
+  { id: 'nzm-4', category: 'Norte/ZM', unit: '2º BPM', rank: 'CAP', matricula: '1207598', name: 'VICENTE NASCIMENTO NETO', role: 'Subcomandante 2º BPM', contact: '99687-7817' },
+  { id: 'nzm-5', category: 'Norte/ZM', unit: '6º BPM', rank: 'MAJ', matricula: '1207113', name: 'ALEANDRO FERREIRA CAITANO', role: 'Comandante 6º BPM – Maragogi', contact: '99915-8301' },
+  { id: 'nzm-6', category: 'Norte/ZM', unit: '6º BPM', rank: 'CAP', matricula: '98656554', name: 'FRANKLIN MELO DOS SANTOS', role: 'Subcomandante 6º BPM', contact: '99373-1991' },
+  { id: 'nzm-7', category: 'Norte/ZM', unit: '14º BPM', rank: 'MAJ', matricula: '117609', name: 'ADRIANO LEVY MONTEIRO SANTOS', role: 'Comandante 14º BPM – Joaquim Gomes', contact: '99909-2449' },
+  { id: 'nzm-8', category: 'Norte/ZM', unit: '14º BPM', rank: 'MAJ', matricula: '1206770', name: 'ANTONIO FURTUNATO DA SILVA', role: 'Subcomandante 14º BPM', contact: '99156-4038' },
+  { id: 'nzm-9', category: 'Norte/ZM', unit: '8ª CPM/I', rank: 'MAJ', matricula: '1206877', name: 'GONZAGA DE MELO FILHO', role: 'Comandante 8ª CPM/I – São Luís do Quitunde', contact: '99920-9405' },
+  { id: 'nzm-10', category: 'Norte/ZM', unit: '8ª CPM/I', rank: 'CAP', matricula: '98654241', name: 'THIAGO HENRIQUE BARROS LESSA', role: 'Subcomandante 8ª CPM/I', contact: '99949-2876' },
+
+  // --- REGIÃO SUL (CPRSul) ---
+  { id: 'sul-1', category: 'Sul', unit: 'CPRSul', rank: 'TC', matricula: '1207083', name: 'FERNANDO JOSE FERREIRA SOARES JUNIOR', role: 'Comandante Regional Sul', contact: '98866-2298' },
+  { id: 'sul-2', category: 'Sul', unit: 'CPRSul', rank: 'TC', matricula: '1206788', name: 'MARIA ADRIANA DE SOUZA', role: 'Subcomandante Regional Sul', contact: '99607-4022' },
+  { id: 'sul-3', category: 'Sul', unit: '11º BPM', rank: 'MAJ', matricula: '1200720', name: 'JERCIO TEIXEIRA DE FARIAS', role: 'Comandante 11º BPM – Penedo', contact: '99629-0028' },
+  { id: 'sul-4', category: 'Sul', unit: '11º BPM', rank: 'MAJ', matricula: '1206656', name: 'JEAN MIGUEL DA SILVA', role: 'Subcomandante 11º BPM', contact: '99964-0891' },
+  { id: 'sul-5', category: 'Sul', unit: '1ª CPM/I', rank: 'CAP', matricula: '98667874', name: 'LUIZ FELIPE DE OLIVEIRA ROCHA UGA CAMARA', role: 'Comandante 1ª CPM/I – S. Miguel dos Campos', contact: '99116-2198' },
+  { id: 'sul-6', category: 'Sul', unit: '1ª CPM/I', rank: 'CAP', matricula: '5819', name: 'MAXSUEL SANTOS SILVA', role: 'Subcomandante 1ª CPM/I', contact: '99933-2270' },
+  { id: 'sul-7', category: 'Sul', unit: '9ª CPM/I', rank: 'MAJ', matricula: '1200488', name: 'MARCOS AURELIO RIBEIRO PEREIRA', role: 'Comandante 9ª CPM/I – Coruripe', contact: '99629-2938' },
+  { id: 'sul-8', category: 'Sul', unit: '9ª CPM/I', rank: '1º TEN', matricula: '10006', name: 'CARLOS RAPHAEL ANDRADE DE SANTANA', role: 'Subcomandante 9ª CPM/I', contact: '98176-1064' },
+  { id: 'sul-9', category: 'Sul', unit: '10ª CPM/I', rank: 'CAP', matricula: '1206850', name: 'ANTONIO HENRIQUE DIAS COSTA', role: 'Comandante 10ª CPM/I – Teotônio Vilela', contact: '99694-8206' },
+  { id: 'sul-10', category: 'Sul', unit: '10ª CPM/I', rank: 'CAP', matricula: '14621', name: 'RODRIGO BARBOSA FERRO', role: 'Subcomandante 10ª CPM/I', contact: '99602-1188' },
+
+  // --- POLICIAMENTO ESPECIALIZADO (CPE) ---
+  { id: 'esp-1', category: 'Especializado', unit: 'CPE', rank: 'CEL', matricula: '117560', name: 'MARIO ANTONIO DE OLIVEIRA XAVIER', role: 'Comandante Policiamento Especializado', contact: '98151-1329' },
+  { id: 'esp-2', category: 'Especializado', unit: 'CPE', rank: 'TC', matricula: '117765', name: 'JOSE BARBOSA SILVA JUNIOR', role: 'Subcomandante Policiamento Especializado', contact: '99690-0766' },
+  { id: 'esp-3', category: 'Especializado', unit: 'BPA', rank: 'TC', matricula: '120060-7', name: 'SILVIO CÉSAR DA SILVA NUNES', role: 'Comandante BPA', contact: '98863-1542' },
+  { id: 'esp-4', category: 'Especializado', unit: 'BPA', rank: 'MAJ', matricula: '---', name: 'FABIO DE OLIVEIRA CHAVES', role: 'Subcomandante BPA', contact: '98831-0639' },
+  { id: 'esp-5', category: 'Especializado', unit: 'BPTran', rank: 'TC', matricula: '117625', name: 'HARLEN LOPES MENDES', role: 'Comandante BPTran', contact: '99835-4510' },
+  { id: 'esp-6', category: 'Especializado', unit: 'BPTran', rank: 'CAP', matricula: '498513', name: 'MICHEL LINS PIMENTEL', role: 'Subcomandante BPTran', contact: '99933-0593' },
+  { id: 'esp-7', category: 'Especializado', unit: 'BPRv', rank: 'TC', matricula: '120642', name: 'THALVANNES JOSE BELEM RAMOS', role: 'Comandante BPRv', contact: '98139-3227' },
+  { id: 'esp-8', category: 'Especializado', unit: 'BPRv', rank: 'MAJ', matricula: '120758', name: 'ALEXANDRE MARTINS BISPO', role: 'Subcomandante BPRv', contact: '99353-7117' },
+  { id: 'esp-9', category: 'Especializado', unit: 'BPEsc', rank: 'MAJ', matricula: '120944', name: 'NOEMI GOMES FIRMO SOARES', role: 'Comandante BPEsc', contact: '99430-7032' },
+  { id: 'esp-10', category: 'Especializado', unit: 'BPEsc', rank: 'MAJ', matricula: '1200500', name: 'SAMUEL CRUZ DA COSTA', role: 'Subcomandante BPEsc', contact: '9969-2618' },
+  { id: 'esp-11', category: 'Especializado', unit: 'CPM/I-Faz', rank: 'MAJ', matricula: '121096', name: 'MIZAEL LEITE PESSOA JUNIOR', role: 'Comandante CPM/I-Faz', contact: '98805-2920' },
+  { id: 'esp-12', category: 'Especializado', unit: 'CPM/I-Faz', rank: '1º TEN', matricula: '22772', name: 'LUIZ FERNANDO FRANÇA DE ARAUJO', role: 'Subcomandante CPM/I-Faz', contact: '99836-4270' },
+
+  // --- MISSÕES ESPECIAIS (CME) ---
+  { id: 'mis-1', category: 'Missões', unit: 'CME', rank: 'TC', matricula: '120707', name: 'HENRIQUE JATOBÁ CORREIA', role: 'Comandante Comando Missões Especiais', contact: '98885-9474' },
+  { id: 'mis-2', category: 'Missões', unit: 'CME', rank: 'TC', matricula: '121053', name: 'ANTONIO JORGE MOREIRA JUNIOR', role: 'Subcomandante Comando Missões Especiais', contact: '99663-7778' },
+  { id: 'mis-3', category: 'Missões', unit: 'BOPE', rank: 'TC', matricula: '1207520', name: 'DIEGO SARMENTO FIRMINO', role: 'Comandante BOPE', contact: '99973-3680' },
+  { id: 'mis-4', category: 'Missões', unit: 'BOPE', rank: 'MAJ', matricula: '98667831', name: 'JOACY GALDINO DA SILVA JUNIOR', role: 'Subcomandante BOPE', contact: '98811-1016' },
+  { id: 'mis-5', category: 'Missões', unit: 'ROTAM', rank: 'MAJ', matricula: '1207342', name: 'HELQUIAS ALISSON SANTOS PEREIRA', role: 'Comandante ROTAM', contact: '98831-8546' },
+  { id: 'mis-6', category: 'Missões', unit: 'ROTAM', rank: 'CAP', matricula: '1562', name: 'SEBASTIAO GRANGEIRO BISNETO', role: 'Subcomandante ROTAM', contact: '98713-6141' },
+  { id: 'mis-7', category: 'Missões', unit: 'RPMon', rank: 'MAJ', matricula: '1207318', name: 'DIEGO HENRIQUE BEZERRA VIEIRA', role: 'Comandante RPMon', contact: '99644-8691' },
+  { id: 'mis-8', category: 'Missões', unit: 'RPMon', rank: 'CAP', matricula: '98653296', name: 'DIOGO BUARQUE PEREIRA', role: 'Subcomandante RPMon', contact: '99608-7294' },
+  { id: 'mis-9', category: 'Missões', unit: 'COPES', rank: 'MAJ', matricula: '1207229', name: 'MIGUEL VIEIRA DOS SANTOS NETO', role: 'Comandante COPES', contact: '99630-8899' },
+  { id: 'mis-10', category: 'Missões', unit: 'COPES', rank: 'CAP', matricula: '01651', name: 'RAMON DA SILVA RIBEIRO', role: 'Subcomandante COPES', contact: '99671-0487' },
+  { id: 'mis-11', category: 'Missões', unit: 'CPChoque', rank: 'CAP', matricula: '1449', name: 'FILLIPE ALMEIDA DE ARAUJO', role: 'Comandante CPChoque', contact: '98867-4262' },
+  { id: 'mis-12', category: 'Missões', unit: 'CPChoque', rank: 'CAP', matricula: '14672', name: 'VICTOR HUGO TORRES BARROS', role: 'Subcomandante CPChoque', contact: '98844-6921' },
+  { id: 'mis-13', category: 'Missões', unit: 'CPM/I-RAIO', rank: 'CAP', matricula: '499013', name: 'DANIEL PITA AMARAL', role: 'Comandante CPM/I-RAIO', contact: '98894-1367' },
+  { id: 'mis-14', category: 'Missões', unit: 'CPM/I-RAIO', rank: '1º TEN', matricula: '5614', name: 'THIAGO BRANDAO DE LEMOS INACIO', role: 'Subcomandante CPM/I-RAIO', contact: '99994-3400' },
+
+  // --- ENSINO E ESCOLAS ---
+  { id: 'esc-1', category: 'Diretorias', unit: 'APMSAM', rank: 'CEL', matricula: '113522', name: 'CARLOS JOSE AZEVEDO SANTOS', role: 'Comandante APMSAM', contact: '99983-3046' },
+  { id: 'esc-2', category: 'Diretorias', unit: 'APMSAM', rank: 'TC', matricula: '117579', name: 'HELSON DE AZEVEDO SOUZA NETO', role: 'Subcomandante APMSAM', contact: '99644-2161' },
+  { id: 'esc-3', category: 'Diretorias', unit: 'CFAP', rank: 'MAJ', matricula: '117722', name: 'DANIEL SAMPAIO VALOES DA ROCHA', role: 'Comandante CFAP', contact: '99998-9994' },
+  { id: 'esc-4', category: 'Diretorias', unit: 'CFAP', rank: 'MAJ', matricula: '98654187', name: 'REINALDO DE LIMA BARBOSA JÚNIOR', role: 'Subcomandante CFAP', contact: '99973-7905' },
+  { id: 'esc-5', category: 'Diretorias', unit: 'DEF', rank: 'TC', matricula: '98654160', name: 'PEDRO HENRIQUE BASILIO HONORATO', role: 'Chefe Departamento Ed. Física', contact: '98840-1041' },
+  { id: 'esc-6', category: 'Diretorias', unit: 'CPM-Cap', rank: 'TC', matricula: '120995', name: 'SIDNEY INACIO CUNHA', role: 'Comandante Colégio Militar Capital', contact: '98860-9550' },
+  { id: 'esc-7', category: 'Diretorias', unit: 'CPM-Cap', rank: 'MAJ', matricula: '121118', name: 'RODRIGO MEDEIROS FERREIRA', role: 'Subcomandante Colégio Militar Capital', contact: '98861-0206' },
+  { id: 'esc-8', category: 'Diretorias', unit: 'CPM-Int', rank: 'TC', matricula: '117668', name: 'LUCIANO FELIZARDO DOS SANTOS', role: 'Comandante Colégio Militar Interior', contact: '99933-2773' },
+  { id: 'esc-9', category: 'Diretorias', unit: 'CPM-Int', rank: 'MAJ', matricula: '120510', name: 'JAMES MARINHO VITAL', role: 'Subcomandante Colégio Militar Interior', contact: '98101-3600' },
 
   // --- OUTROS OFICIAIS ---
   { id: 'out-1', category: 'Outros', unit: 'PMAL', rank: 'CEL', matricula: '75175', name: 'WALTER DO VALLE DE MELO JUNIOR', role: 'Oficial', contact: '99377-5959' },
   { id: 'out-2', category: 'Outros', unit: 'PMAL', rank: 'TC', matricula: '117781', name: 'JOSE PAULO COSTA VIEIRA', role: 'Oficial', contact: '99904-4114' },
+  { id: 'out-3', category: 'Outros', unit: 'PMAL', rank: 'CEL', matricula: '82074', name: 'MOISES DO NASCIMENTO', role: 'Oficial', contact: '99615-4382' },
+  { id: 'out-14', category: 'Outros', unit: 'PMAL', rank: 'TC', matricula: '102865', name: 'CARLOS SERGIO LIMA DE ARAUJO', role: 'Oficial', contact: '99997-3767' },
 ];
 
 export const CATEGORY_LABELS: Record<string, string> = {
