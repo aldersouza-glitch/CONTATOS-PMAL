@@ -3,7 +3,7 @@ import { Officer } from './types';
 
 export const OFFICER_DATA: Officer[] = [
   // --- COMANDO GERAL (GCG) ---
-  { id: 'cg-1', category: 'Comando', unit: 'GCG', rank: 'CEL', matricula: 'FEITOSA', name: 'PAULO AMORIM FEITOSA FILHO', role: 'Comandante Geral', contact: '98109-8500' },
+  { id: 'cg-1', category: 'Comando', unit: 'GCG', rank: 'CEL', matricula: '---', name: 'PAULO AMORIM FEITOSA FILHO', role: 'Comandante Geral', contact: '98109-8500' },
   { id: 'cg-2', category: 'Comando', unit: 'GCG', rank: 'TC', matricula: '117846', name: 'THAYRONILSON EMERY DOS SANTOS', role: 'Chefe de Gabinete / Assessor CG', contact: '98825-9120' },
   { id: 'cg-3', category: 'Comando', unit: 'GCG', rank: 'TC', matricula: '114111', name: 'SANDRO RICARDO DOS SANTOS', role: 'Chefe do Núcleo de Qualidade de Vida', contact: '98829-5540' },
   { id: 'cg-4', category: 'Comando', unit: 'GCG', rank: 'CAP', matricula: '337293', name: 'ANDRE LUIS SOUZA DE FIGUEIROA', role: 'Subchefe de Gabinete do CG', contact: '98855-3175' },
@@ -48,6 +48,17 @@ export const OFFICER_DATA: Officer[] = [
   { id: 'dir-12', category: 'Diretorias', unit: 'DEIP', rank: 'TC', matricula: '1207199', name: 'MOISÉS DE NASCIMENTO ACÁCIO', role: 'Subdiretor de Ensino, Instrução e Pesquisa', contact: '99952-0830' },
   { id: 'dir-13', category: 'Diretorias', unit: 'DPP', rank: 'CEL', matricula: '113271', name: 'NILTON ROCHA JUNIOR', role: 'Diretor de Políticas Preventivas', contact: '99818-9596' },
   { id: 'dir-14', category: 'Diretorias', unit: 'DPP', rank: 'TC', matricula: '102652', name: 'JORGE FRANCELINO TENORIO', role: 'Subdiretor de Políticas Preventivas', contact: '98833-4156' },
+
+  // --- ENSINO E ESCOLAS ---
+  { id: 'esc-1', category: 'Diretorias', unit: 'APMSAM', rank: 'CEL', matricula: '113522', name: 'CARLOS JOSE AZEVEDO SANTOS', role: 'Comandante APMSAM', contact: '99983-3046' },
+  { id: 'esc-2', category: 'Diretorias', unit: 'APMSAM', rank: 'TC', matricula: '117579', name: 'HELSON DE AZEVEDO SOUZA NETO', role: 'Subcomandante APMSAM', contact: '99644-2161' },
+  { id: 'esc-3', category: 'Diretorias', unit: 'CFAP', rank: 'MAJ', matricula: '117722', name: 'DANIEL SAMPAIO VALOES DA ROCHA', role: 'Comandante CFAP', contact: '99998-9994' },
+  { id: 'esc-4', category: 'Diretorias', unit: 'CFAP', rank: 'MAJ', matricula: '98654187', name: 'REINALDO DE LIMA BARBOSA JÚNIOR', role: 'Subcomandante CFAP', contact: '99973-7905' },
+  { id: 'esc-5', category: 'Diretorias', unit: 'DEF', rank: 'TC', matricula: '98654160', name: 'PEDRO HENRIQUE BASILIO HONORATO', role: 'Chefe Departamento Ed. Física', contact: '98840-1041' },
+  { id: 'esc-6', category: 'Diretorias', unit: 'CPM-Cap', rank: 'TC', matricula: '120995', name: 'SIDNEY INACIO CUNHA', role: 'Comandante Colégio Militar Capital', contact: '98860-9550' },
+  { id: 'esc-7', category: 'Diretorias', unit: 'CPM-Cap', rank: 'MAJ', matricula: '121118', name: 'RODRIGO MEDEIROS FERREIRA', role: 'Subcomandante Colégio Militar Capital', contact: '98861-0206' },
+  { id: 'esc-8', category: 'Diretorias', unit: 'CPM-Int', rank: 'TC', matricula: '117668', name: 'LUCIANO FELIZARDO DOS SANTOS', role: 'Comandante Colégio Militar Interior', contact: '99933-2773' },
+  { id: 'esc-9', category: 'Diretorias', unit: 'CPM-Int', rank: 'MAJ', matricula: '120510', name: 'JAMES MARINHO VITAL', role: 'Subcomandante Colégio Militar Interior', contact: '98101-3600' },
 
   // --- POLICIAMENTO METROPOLITANO (CPM) ---
   { id: 'm-1', category: 'Metropolitana', unit: 'CPM', rank: 'TC', matricula: '120812', name: 'HIRAQUE AGNNES DOS SANTOS', role: 'Comandante Policiamento Metropolitano', contact: '98858-9137' },
