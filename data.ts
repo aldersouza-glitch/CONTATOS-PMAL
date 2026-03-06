@@ -14,7 +14,7 @@ export const OFFICER_DATA: Officer[] = [
   { id: 'scg-1', category: 'Subcomando', unit: 'GSCG', rank: 'CEL', matricula: '101621', name: 'NEYVALDO JOSÉ AMORIM DA SILVA', role: 'Subcomandante Geral', contact: '99942-6194' },
   { id: 'scg-2', category: 'Subcomando', unit: 'GSCG', rank: 'TC', matricula: '120456', name: 'MARCELO FERREIRA LIMA VALOES', role: 'Chefe Assessoria do Subcomandante Geral', contact: '98894-1958' },
   { id: 'scg-3', category: 'Subcomando', unit: 'GSCG', rank: 'MAJ', matricula: '102750', name: 'LUCIANA LEITE SARMENTO', role: 'Chefe da Ouvidoria Geral', contact: '99341-0407' },
-  { id: 'scg-4', category: 'Subcomando', unit: 'GSCG', rank: 'TC', matricula: '114022', name: 'GERILO ALVES DE', role: 'Chefe da Ajudância Geral', contact: '---' },
+  { id: 'scg-4', category: 'Subcomando', unit: 'GSCG', rank: 'TC', matricula: '114022', name: 'GERILO ALVES DE', role: 'Chefe da Ajudância Geral', contact: '99142-4292' },
   { id: 'scg-5', category: 'Subcomando', unit: 'GSCG', rank: 'CAP', matricula: '1554', name: 'IGOR SARMENTO FIRMINO', role: 'Subchefe Assessoria do Subcomandante Geral', contact: '99953-3113' },
   { id: 'scg-6', category: 'Subcomando', unit: 'GSCG', rank: 'CAP', matricula: '423983', name: 'MARIANA CESAR GOIS CAETANO TOLEDO', role: 'Subchefe Ajudância Geral / Chefe Secretaria', contact: '99610-6162' },
   { id: 'scg-7', category: 'Subcomando', unit: 'GSCG', rank: 'MAJ', matricula: '1207547', name: 'JOSE ANDERSON BOMFIM BARROS', role: 'Atendimento ao Público (Ouvidoria)', contact: '99922-0496' },
